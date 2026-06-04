@@ -1,25 +1,50 @@
-🔍 Built a Cybersecurity OSINT Tool from Scratch
+🔍 OSINT Exposure Report Generator
 
-I recently developed a Personal OSINT Exposure Report Generator using Python.
+A cybersecurity project that analyzes publicly available information to assess personal exposure risk using OSINT techniques.
 
-This tool analyzes publicly available data to identify:
-• Data breach exposure
-• Username presence across platforms
-• Email reputation risk
+---
 
-It then calculates a risk score and generates a professional PDF report with security recommendations.
+🚀 Features
 
-💡 Key Learning:
-Understanding how much information is publicly available online and how attackers perform reconnaissance.
+* 🔎 Breach detection using public APIs
+* 🌐 Username reconnaissance across platforms (Sherlock)
+* 📧 Email reputation analysis
+* 📊 Risk scoring system (Low / Medium / High / Critical)
+* 📄 Automated PDF report generation
 
-🛠️ Tech Used:
-Python, Sherlock, OSINT APIs, FPDF
+---
 
-This project strengthened my understanding of:
-- Reconnaissance in cybersecurity
-- OSINT techniques
-- Risk analysis and reporting
+🛠️ Tech Stack
 
-📂 GitHub: (paste your repo link here)
+* Python
+* Requests
+* Sherlock
+* FPDF
 
-#CyberSecurity #OSINT #Python #EthicalHacking #InfoSec #StudentProject
+---
+
+📊 Output
+
+Generates a detailed PDF report containing:
+
+* Breach history
+* Social media footprint
+* Email reputation
+* Security recommendations
+
+---
+
+▶️ How to Run
+
+```bash
+pip install requests fpdf
+python main.py
+```
+
+---
+
+⚠️ Disclaimer
+
+This project is developed for educational and ethical cybersecurity purposes only. No unauthorized data access is performed.
+
+---
